@@ -42,6 +42,4 @@ func main() {
 	fmt.Printf("IS A README?? : %v as per gitea\n", markup.IsReadmeFile("README.md"))
 
 	fmt.Println("HI I'M INTENTIONALLY USING VULNERABLE LIBS")
-	fmt.Println("HI I'M INTENTIONALLY USING VULNERABLE TEST")
-	fmt.Println("HI I'M INTENTIONALLY USING VULNERABLE TEST 2")
 }
