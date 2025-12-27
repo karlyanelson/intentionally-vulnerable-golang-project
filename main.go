@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 
 	"github.com/go-gitea/gitea/modules/markup"
-	"golang.org/x/crypto/md4"
 	"github.com/gophish/gophish/config"
+	"golang.org/x/crypto/md4"
 )
 
 var validConfig = []byte(`{
@@ -29,7 +29,7 @@ var validConfig = []byte(`{
 	"contact_address": ""
 }`)
 
-func main(){
+func main() {
 	h := md4.New()
 	data := "These pretzels are making me thirsty."
 	io.WriteString(h, data)
